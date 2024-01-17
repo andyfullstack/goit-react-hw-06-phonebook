@@ -35,7 +35,6 @@ const contactsSlice = createSlice({
           contact => contact.id === action.payload
         );
         contacts.splice(index, 1);
-        localStorage.clear();
       },
     },
   },
