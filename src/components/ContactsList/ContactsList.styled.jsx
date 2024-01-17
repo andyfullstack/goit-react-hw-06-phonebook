@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Ul = styled.ul`
+  position: relative;
   list-style-type: none;
   margin-top: 20px;
-  padding: 0;
-  margin-left: 800px;
+  top: 50%;
+  left: 35%;
+  transform: translate(90px, 0px);
 `;
 
 export const Li = styled.li`
