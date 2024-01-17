@@ -5,9 +5,9 @@ import Filter from 'components/Filter/Filter';
 export const App = () => {
   return (
     <>
-      <h1>Phonebook</h1>
+      <h1 style={{ marginLeft: '800px' }}>Phonebook</h1>
       <ContactsForm />
-      <h1>Contacts</h1>
+      <h1 style={{ marginLeft: '800px' }}>Contacts</h1>
       <Filter />
       <ContactsList />
     </>
